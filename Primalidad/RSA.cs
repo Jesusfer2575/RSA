@@ -20,7 +20,9 @@ namespace Primalidad
 
         public RSA(){}
         
-
+        /// <summary>
+        /// Este método calcula algunas operaciones parte de RSA
+        /// </summary>
         public void CalculateImportantValues()
         {
             n = p * q;
@@ -39,16 +41,31 @@ namespace Primalidad
 
         }
 
+        /// <summary>
+        /// Este método Cifra el texto en forma de número
+        /// </summary>
+        /// <param name="m"></param>
+        /// <returns></returns>
         public long Encrypt(int m)
         {
             return encrypted_value = Rabin_Miller.binaryPow(m,e,n);
         }
 
+
+        /// <summary>
+        /// Este método descifra el mensaje cifrado
+        /// </summary>
+        /// <param name="c"></param>
+        /// <returns></returns>
         public long Decrypt(long c)
         {
             return decrypted_value = Rabin_Miller.binaryPow(c, d, n);
         }
 
+        /// <summary>
+        /// Con ayuda de la clase Rabin_Miller
+        /// se calculan dos números primos, del orden 1x10^8
+        /// </summary>
         public void CalculatePrimes()
         {
             bool isPrime = false;
