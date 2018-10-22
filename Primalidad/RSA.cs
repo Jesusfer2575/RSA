@@ -56,7 +56,7 @@ namespace Primalidad
             Rabin_Miller rm = new Rabin_Miller();
             while (!isPrime)
             {
-                p = this.rnd.Next(1000,10000);
+                p = this.rnd.Next(1000,100000);
                 isPrime = rm.isPrime(p, 4);
             }
 
