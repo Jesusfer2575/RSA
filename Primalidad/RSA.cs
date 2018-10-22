@@ -18,10 +18,7 @@ namespace Primalidad
         private static long decrypted_value;
         private Random rnd;
 
-        public RSA()
-        {
-
-        }
+        public RSA(){}
         
 
         public void CalculateImportantValues()
@@ -37,7 +34,7 @@ namespace Primalidad
                 if(Euclides.GCD(e, fi) == 1)
                     isCoprime = true;
             }
-            //int d = Euclides.Extendido(117, 244);
+            
             d = Euclides.Extendido(e, fi);
 
         }
