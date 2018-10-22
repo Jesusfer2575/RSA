@@ -44,7 +44,7 @@
             this.Encrypt.TabIndex = 0;
             this.Encrypt.Text = "Cifrar";
             this.Encrypt.UseVisualStyleBackColor = true;
-            this.Encrypt.Click += new System.EventHandler(this.button1_Click);
+            this.Encrypt.Click += new System.EventHandler(this.Encrypt_Click);
             // 
             // txtEncripted
             // 

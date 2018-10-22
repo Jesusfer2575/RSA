@@ -20,25 +20,22 @@ namespace Primalidad
             Init();
         }
 
-        private void Init()
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.rsa = new RSA();
-            this.rsa.CalculatePrimes();
-            this.rsa.CalculateImportantValues();
-            this.c = this.rsa.Encrypt(Convert.ToInt32(txtMessage.Text));
-            txtEncripted.Text = c.ToString();
-        }
+        private void Init(){}
 
         private void Decrypt_Click(object sender, EventArgs e)
         {
             this.rsa = new RSA();
             long m = this.rsa.Decrypt(this.c);
             txtEncripted.Text = m.ToString(); 
+        }
+
+        private void Encrypt_Click(object sender, EventArgs e)
+        {
+            this.rsa = new RSA();
+            this.rsa.CalculatePrimes();
+            this.rsa.CalculateImportantValues();
+            this.c = this.rsa.Encrypt(Convert.ToInt32(txtMessage.Text));
+            txtEncripted.Text = c.ToString();
         }
     }
 }
