@@ -1,0 +1,10 @@
+C:\Users\adrian.fernandez\source\repos\Test_Primalidad\Primalidad\bin\Debug\Primalidad.exe.config
+C:\Users\adrian.fernandez\source\repos\Test_Primalidad\Primalidad\bin\Debug\Primalidad.exe
+C:\Users\adrian.fernandez\source\repos\Test_Primalidad\Primalidad\bin\Debug\Primalidad.pdb
+C:\Users\adrian.fernandez\source\repos\Test_Primalidad\Primalidad\obj\Debug\Primalidad.csprojAssemblyReference.cache
+C:\Users\adrian.fernandez\source\repos\Test_Primalidad\Primalidad\obj\Debug\Primalidad.Form1.resources
+C:\Users\adrian.fernandez\source\repos\Test_Primalidad\Primalidad\obj\Debug\Primalidad.Properties.Resources.resources
+C:\Users\adrian.fernandez\source\repos\Test_Primalidad\Primalidad\obj\Debug\Primalidad.csproj.GenerateResource.cache
+C:\Users\adrian.fernandez\source\repos\Test_Primalidad\Primalidad\obj\Debug\Primalidad.csproj.CoreCompileInputs.cache
+C:\Users\adrian.fernandez\source\repos\Test_Primalidad\Primalidad\obj\Debug\Primalidad.exe
+C:\Users\adrian.fernandez\source\repos\Test_Primalidad\Primalidad\obj\Debug\Primalidad.pdb
