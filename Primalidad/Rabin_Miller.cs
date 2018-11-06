@@ -13,6 +13,14 @@ namespace Primalidad
 
         }
 
+        /// <summary>
+        /// This method calculates the power of a number module m using the algorithm of the binary exponentiation
+        /// Which is O(log n) time complexity
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="n"></param>
+        /// <param name="m"></param>
+        /// <returns></returns>
         public static long binaryPow(long a, long n, long m)
         {
             long res = 1;
